@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#123450"
+    tools:context=".StarRating">
+
+    <RatingBar
+        android:id="@+id/simpleRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="1dp"
+        android:numStars="5"
+        android:rating="0"
+        android:secondaryProgressTint="#FFD700"
+        android:progressTint="#FFD700"
+        android:progressBackgroundTint="#F1E5AC  "
+        android:stepSize="0.5"
+        />
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="316dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="187dp"
+        android:padding="10dp"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
